@@ -1,0 +1,26 @@
+title: Alex Sloan
+author: Alex Sloan
+email: "alex.b.sloan@gmail.com"
+description: >- # ignore newlines
+  Alex Sloan's personal blog and portfolio site.
+url: "http://alexbsloan.com"
+github_username: aslo
+source_repository: "https://github.com/aslo/aslo.github.io"
+url: 'http://alexbsloan.com'
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compresed
+  sass_dir: _sass
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

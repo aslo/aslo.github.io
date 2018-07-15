@@ -1,0 +1,13 @@
+{% if site.twitter_username %}
+    <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
+{% endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ desc }}">
+<meta name="twitter:url" content="{{ site.url }}">
+{% if site.twitter_image %}
+    <meta name="twitter:image" content="{{ site.twitter_image }}">
+{% elsif site.profile_picture %}
+    <meta name="twitter:image" content="{{ site.profile_picture }}">
+{% endif %}
