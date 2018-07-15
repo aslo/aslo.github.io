@@ -13,6 +13,9 @@ sass:
   style: compresed
   sass_dir: _sass
 
+# Analytics
+tracking_id: 'UA-122312229-1'
+
 # Exclude from processing
 exclude:
   - README.md
