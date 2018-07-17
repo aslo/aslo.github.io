@@ -15,3 +15,13 @@ part of Google Cloud. Before joining the Apigee team, I worked on the Java runti
 [App Engine Flexible Environment](https://cloud.google.com/appengine/docs/flexible/).
 
 
+{% if site.posts.size > 0 %}
+
+---
+
+## Recent Posts
+{% for post in site.posts %}
+  * {{ post.date | date: "%b %d, %Y" }} -- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+{% endif %}
