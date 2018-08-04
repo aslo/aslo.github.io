@@ -20,7 +20,7 @@ part of Google Cloud. Before joining the Apigee team, I worked on the Java runti
 ---
 
 ## Recent Posts
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
   * {{ post.date | date: "%b %d, %Y" }} -- [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
